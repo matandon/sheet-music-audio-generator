@@ -1,3 +1,5 @@
+turns image of sheet music into audio
+
 To Do
 
 1. be able to input multiple pages
