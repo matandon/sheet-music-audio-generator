@@ -1,7 +1,7 @@
 # Sheet Music Audio Generator
 
 ## Description: 
-Scans a simple image of sheet music and generates audio of what it sounds like.
+Scans a simple image of sheet music and generates audio playing the piece.
 
 ## About the Development:
 I created this project as my term project for CMU's 15-112 course, which I self-taught. I love music, but I'm horrible at sightreading and conceptualizing how things should sound without hearing them first, so I thought I'd create an application that could help me hear what things are supposed to sound like. This proved to be a hefty endeavor.
