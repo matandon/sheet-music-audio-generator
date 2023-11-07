@@ -3,6 +3,9 @@
 ## Description: 
 Scans a simple image of sheet music and generates audio playing the piece.
 
+## Demo of Sheet Music Audio Generator: 
+https://drive.google.com/file/d/1jmvAlokDSsQ7GE-yQMZwD74f6GPMSSM6/view?usp=sharing
+
 ## About the Development:
 I created this project as my term project for CMU's 15-112 course, which I self-taught. I love music, but I'm horrible at sightreading and conceptualizing how things should sound without hearing them first, so I thought I'd create an application that could help me hear what things are supposed to sound like. This proved to be a hefty endeavor.
 
@@ -16,6 +19,3 @@ I created this project as my term project for CMU's 15-112 course, which I self-
 1. Support for Multiple Image Types: Currently, the application only supports grayscale images, and attempts to diversify the acceptable file types by converting them to grayscale have been unsuccessful. Further research to diagnose the issue is required to support more file types. 
 2. Improve Audio Quality: The audio generated is currently just a sin wave, rather than an imitation instrument. I would like to change how the sound is generated so that it sounds like a piano and more natural. 
 3. Improve Consistency: The note identification is inconsistent in its accuracy, so a more accurate method of identifying the bubbles would help the quality of the project.
-
-## Demo of Sheet Music Audio Generator: 
-https://drive.google.com/file/d/1jmvAlokDSsQ7GE-yQMZwD74f6GPMSSM6/view?usp=sharing
