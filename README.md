@@ -19,6 +19,8 @@ I created this app over the course of a month as my term project for CMU's intro
 4. General Comments: Examples of unused data in the images included the title, the composer, the cleff, the key signature, the time signature, and repeats. Examples of noise were variations in the thickness of lines, spurious non-white pixels, etc.. These were often read as either staff lines, measures, or notes. Most of these were able to be ignored programmatically through various thresholds on local pixel density, or relative locations to other well-defined landmarks. Some were solved by having the user manually crop certain areas of the image.
 
 ## Further Development
-1. Support for Multiple Image Types: Currently, the application only supports grayscale images, and attempts to diversify the acceptable file types by converting them to grayscale have been unsuccessful. Further research to diagnose the issue is required to support more file types. 
+1. Support for Multiple Image Types: Currently, the application only supports grayscale images, and attempts to diversify the acceptable file types by converting them to grayscale have been unsuccessful. Further research to diagnose the issue is required to support more file types.
+   
 2. Improve Audio Quality: The audio generated is currently just a sin wave, rather than an imitation instrument. I would like to change how the sound is generated so that it sounds like a piano and more natural. 
+
 3. Improve Consistency: The note identification is inconsistent in its accuracy, so a more accurate method of identifying the bubbles would help the quality of the project.
