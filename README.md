@@ -7,7 +7,7 @@ Scans a simple image of sheet music and generates audio playing the piece.
 https://drive.google.com/file/d/1jmvAlokDSsQ7GE-yQMZwD74f6GPMSSM6/view?usp=sharing
 
 ## About the Development:
-I created this project as my term project for CMU's 15-112 course, which I self-taught. I love music, but I'm horrible at sightreading and conceptualizing how things should sound without hearing them first, so I thought I'd create an application that could help me hear what things are supposed to sound like. This proved to be a hefty endeavor.
+I created this project as my term project for CMU's 15-112 course, which I self-taught. I love music, but I struggle with sightreading and conceptualizing how things should sound without hearing them first, so I thought I'd create an application that could help me hear what things are supposed to sound like. This proved to be a hefty endeavor.
 
 ## Challenges:
 1. Cropping the images: To read each image, I used a brute-force cropping mechanism that calculated the ratio of black pixels in a row to the total number of pixels in that row and used different thresholds to identify the edges of each line of music and each bar of music. This posed challenges with large amounts of noise being present in some images, which meant I had to fine-tune the thresholds used to ensure correct cropping.
